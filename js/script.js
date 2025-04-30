@@ -3,6 +3,9 @@
 // Created by: Lynn Lukose
 // Created on: apr 2025
 // This file contains the JS functions for index.html
+
+"use strict"
+
 function check() {
   // input
   const day = document.getElementById("day").value;
@@ -10,10 +13,10 @@ function check() {
 
   // process + output
   if (day === "Tuesday" || day === "Thursday" || (userAge > 12 && userAge < 21)) {
-    document.getElementById("result").innerHTML =
+    document.getElementById("answer").innerHTML =
       "You get a discount for the museum!";
   } else {
-    document.getElementById("result").innerHTML =
+    document.getElementById("answer").innerHTML =
       "You must pay the regular price.";
   }
 }
