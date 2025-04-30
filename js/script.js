@@ -14,9 +14,9 @@ function check() {
   // process + output
   if (day === "Tuesday" || day === "Thursday" || (userAge > 12 && userAge < 21)) {
     document.getElementById("answer").innerHTML =
-      "You get a discount for the museum!";
+      'You get a discount for the museum!';
   } else {
     document.getElementById("answer").innerHTML =
-      "You must pay the regular price.";
+      'You must pay the regular price.';
   }
 }
