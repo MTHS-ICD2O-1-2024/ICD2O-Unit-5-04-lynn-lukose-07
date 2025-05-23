@@ -5,7 +5,10 @@
 // This file contains the JS functions for index.html
 
 "use strict"
-
+/**
+ * This function calculates whether or not you get a museum student discount
+ */
+// eslint-disable-next-line no-unused-vars
 function check() {
   // input
   const day = document.getElementById("day").value
